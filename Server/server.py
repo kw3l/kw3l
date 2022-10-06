@@ -10,7 +10,7 @@ def reliable_send(data):
 
 def reliable_recv():
     data = ""
-
+ 
     while True:
         try:
             print("Waiting for result")
